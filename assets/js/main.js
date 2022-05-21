@@ -69,7 +69,7 @@ for (let product of products) {
       <div class="wrapper__product-btn">
       <span class="wrapper__product-btn-text">$ ${product.price}</span>
       <div class="wrapper__quantity">
-      <span class="wrapper__product-btn-text">${product.amount}</span>   
+      <span class="wrapper__product-btn-text2">${product.amount}</span>   
       </div>
         <button class="wrapper__product-btn-item" data-id="${product.id}">
           <i class='bx bx-shopping-bag'></i>
@@ -122,7 +122,7 @@ function renderCart() {
     <div class="cart__item-content">
     <h3 class="cart__item-title">${product.name}</h3>
     <div class="cart__item-btn">
-    <span class="cart__item-btn-text"> 1 </span>
+    <span class="cart__item-btn-text2"> 1 </span>
     <span class="cart__item-btn-text">$ ${product.price}</span>
     <button class="cart__item-btn-item" data-id="${product.id}">
     <i class='bx bx-x'></i>
